@@ -1,7 +1,18 @@
-import { h } from 'preact';
+import { h } from "preact";
+import { Button } from "./Button";
+import { ButtonM } from "./ButtonM";
 
 const App = () => {
-  return (<div>My app</div>)
-}
+  return (
+    <div>
+      <div>
+        <Button />
+      </div>
+      <div>
+        <ButtonM>Button M</ButtonM>
+      </div>
+    </div>
+  );
+};
 
 export { App };
